@@ -3,7 +3,7 @@ kind: ABCTable
 metadata:
   name: abctable4
 spec:
-  writecapacityunits: 5
-  hashkeyelementtype: "S"
-  hashkeyelementname: "lname"
-  readcapacityunits: 5
+  WriteCapacityUnits: 5
+  HashKeyElementType: "S"
+  HashEeyElementName: "lname"
+  ReadCapacityUnits: 5
