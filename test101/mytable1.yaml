@@ -5,5 +5,5 @@ metadata:
 spec:
   WriteCapacityUnits: 5
   HashKeyElementType: "S"
-  HashEeyElementName: "lname"
+  HashKeyElementName: "lname"
   ReadCapacityUnits: 5
