@@ -1,7 +1,7 @@
 apiVersion: example.com/v1alpha1
 kind: ABCTable
 metadata:
-  name: abctable3
+  name: abctable4
 spec:
   writecapacityunits: 5
   hashkeyelementtype: "S"
