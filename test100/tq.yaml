@@ -1,0 +1,6 @@
+apiVersion: example.com/v1alpha1
+kind: SpecialQueue
+metadata:
+  name: sq1111
+spec:
+  name: orange
