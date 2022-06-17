@@ -1,0 +1,9 @@
+apiVersion: example.com/v1alpha1
+kind: ABCTable
+metadata:
+  name: peopletable
+spec:
+  writecapacityunits: 5
+  hashkeyelementtype: "S"
+  hashkeyelementname: "fname"
+  readcapacityunits: 5
