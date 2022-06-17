@@ -1,0 +1,9 @@
+apiVersion: example.com/v1alpha1
+kind: ABCTable
+metadata:
+  name: animaltable
+spec:
+  WriteCapacityUnits: 5
+  HashKeyElementType: "S"
+  HashKeyElementName: "species"
+  ReadCapacityUnits: 5
